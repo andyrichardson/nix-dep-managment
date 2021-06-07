@@ -1,0 +1,10 @@
+{
+    "name": "my-package",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "mkdir dist && echo \"console.log('hello'\") > dist/hello.js"
+    },
+    "engines": {
+        "node": ">=14.16.1 <15.0.0"
+    }
+}
